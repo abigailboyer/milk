@@ -55,4 +55,5 @@ $('#less').on('click', function(e) {
     var newValue = parseInt(milkInput) - 1;
     $('#milkInput').val(newValue);
   }
+  e.preventDefault();
 })
