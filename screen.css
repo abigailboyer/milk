@@ -4,10 +4,21 @@ nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,su
 /* stylelint-enable */
 
 body {
-  margin: 20px 5%;
+  margin: 30px;
   list-style: none;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 li {
   padding-bottom: 10px;
+}
+
+#more,
+#less {
+  padding: 5px;
+}
+
+#milkInput {
+  margin: 0 3px;
 }
