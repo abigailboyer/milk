@@ -14,6 +14,11 @@ li {
   padding-bottom: 10px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 #more,
 #less {
   padding: 5px;
