@@ -3,15 +3,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
+/*
+  to do:
+    center the input and buttons with the submit
+    put everything in the right place
+    add photos of milk
+*/
+
 body {
-  margin: 30px;
   list-style: none;
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 li {
-  padding-bottom: 10px;
+  margin: 16px;
+  padding: 0;
 }
 
 a {
@@ -19,17 +26,52 @@ a {
   text-decoration: none;
 }
 
+article {
+  text-align: center;
+}
+
 h1 {
   color: #007FFC;
   font-weight: bold;
-  font-size: 2.25em;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 32px 0;
+  background-color: pink;
 }
 
 #more,
 #less {
-  padding: 5px;
+  padding: 0;
+  margin: 0 2px;
+  padding: 0 8px;
+  font-size: 16px;
+  vertical-align: top;
+  text-align: center;
+
+  color: white;
+  background-color: #007FFC;
 }
 
 #milkInput {
-  margin: 0 3px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 16px;
+  width: 50px;
+  vertical-align: top;
+  text-align: center;
+}
+
+#submit {
+  background-color: #0065C9;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  padding: 4px 20px;
+  margin: 4px;
+  vertical-align: top;
+}
+
+#submit:hover {
+  cursor: pointer;
 }
