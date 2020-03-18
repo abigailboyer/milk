@@ -5,25 +5,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" href="screen.css" />
+  <link rel="stylesheet" href="https://basehold.it/16">
 </head>
 <body>
-  <form id="milk" novalidate>
-    <ul>
-      <li>
-        <label for="milkInput"><h1>how many milk do you want?</h1></label>
-      </li>
-      <li>
-        <input type="text" pattern="[0-9]*" name="milkInput" id="milkInput" value="1" />
-      </li>
-      <li>
-        <input type="submit" id="submit" value="enter" />
-      </li>
-    </ul>
-  </form>
-  <section>
-    <p id="results">
-    </p>
-  </section>
+  <article>
+    <form id="milk" novalidate>
+      <ul>
+        <li>
+          <label for="milkInput"><h1>How much milk do you want?</h1></label>
+        </li>
+        <li id="number">
+          <input type="text" pattern="[0-9]*" name="milkInput" id="milkInput" value="1" />
+        </li>
+        <li>
+          <input type="submit" id="submit" value="enter" />
+        </li>
+      </ul>
+    </form>
+    <section>
+      <p id="results">
+      </p>
+    </section>
+  </article>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
